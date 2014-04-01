@@ -3,6 +3,12 @@ font-family: opensans;
 src: url(fonts/OpenSans-Regular.ttf);
 }
 
+@keyframes animate-tail {
+    0% {background-position: -6864px 0; }
+    100% {background-position: 0 0;}
+}
+
+
 .generalrules {
 	background: url("../images/bg.png") no-repeat;
 }
@@ -27,4 +33,14 @@ src: url(fonts/OpenSans-Regular.ttf);
 .quemsoueu{
 	line-height: 40px;
 	font-size: 28px;
+}
+
+.foxtail{
+	animation: animate-tail 3.75s steps(44) infinite;
+	background: url('../images/foxtail.png') 0 0 no-repeat;
+	width: 156px;
+	height: 156px;
+	top:254px;
+	left: 348px;
+	position: absolute;
 }
