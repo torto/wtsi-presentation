@@ -1,0 +1,30 @@
+@font-face {
+font-family: opensans;
+src: url(fonts/OpenSans-Regular.ttf);
+}
+
+.generalrules {
+	background: url("../images/bg.png") no-repeat;
+}
+
+.text {
+	font-family: opensans !important; 
+	color: white !important;
+}
+
+.left {
+	width: 350px;
+	height: 500px;
+	float: left;
+}
+
+.right {
+	width: 400px;
+	height: 500px;
+	float: right;
+}
+
+.quemsoueu{
+	line-height: 40px;
+	font-size: 28px;
+}
