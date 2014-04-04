@@ -49,3 +49,25 @@ src: url(fonts/OpenSans-Regular.ttf);
 	font-size: 24px;
 	line-height: 24px;
 }
+
+.topleft{
+	width: 375px;
+	height: 250px;
+	float: right;
+	display: inline;
+
+}
+.topright{
+	width: 375px;
+	height: 250px;
+	float: right;
+	display: inline;
+	position: absolute;
+}
+
+.bottom {
+	width: 750px;
+	height: 270px;
+	float: right;
+	margin-top:1px;
+}
