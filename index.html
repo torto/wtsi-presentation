@@ -8,6 +8,7 @@
     <script type="text/javascript" src="js/shCore.js"></script>
     <script type="text/javascript" src="js/shBrushXml.js"></script>
     <script type="text/javascript" src="js/shBrushJScript.js"></script>
+    <script type="text/javascript" src="js/shBrushCss.js"></script>
 
     <title>Firefox OS, A Web é a Plataforma!</title>
 
@@ -699,6 +700,203 @@
                 <img class="logo" src="images/xhrsnippet.png" style="width: 90%; height:90%; margin-left:35px; margin-top:10px;"/>
             </div>
         </div>
+
+        <!-- CSS3 -->
+        <div class="step slide generalrules" data-x="-5530" data-y="17500" data-z="8280" data-rotate-y="400">
+            <div>
+                <img src="images/CSS3.png" style="position:absolute; margin-left:210px; margin-top: 40px;"/>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4790" data-y="17500" data-z="7655" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Novidades no CSS3</h1>
+            </div>
+            <div style="margin-left: 180px;"> 
+                </br></br>
+                <li>Media Query</li>
+                <li>Animações, Transições e Transformações</li>
+                <li>Pseudo elementos & Contadores</li>
+                <li>Webfonts</li>
+                <li>Bordas</li>         
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4050" data-y="17500" data-z="7030" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Media Query</h1>
+            </div>
+            <div> 
+                <ul></br>
+                    <li>Media Queries foram criadas para tornar o HTML portável.</li>
+                    <li>Pluralidade de plataformas dificulta a criação de um css único.</li>
+                    <li>Através da análise de condições, estilos são aplicados.</li>
+                        <ul>
+                            <li>width, height, orientation, aspect-ratio, color, resolution etc..</li>
+                        </ul>
+                    <li>Forte aliado no desenvolvimento para plataformas mobile, pois cada aparelho possui características próprias.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4050" data-y="18250" data-z="7030" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Media Query</h1>
+            </div>
+            <div>
+                </br> </br>
+                <div class="code">
+                    <pre class="brush: css;">
+                        /* regra aplicada em todo lugar */
+                        body { background: blue; }
+                         
+                        /* aplica somente a partir de 320px */
+                        @media screen and (min-width: 320px) {
+                           body { font-size: 80%; }
+                        }
+                         
+                        /* aplica somente a partir de 480px em landscape */
+                        @media screen and (min-width: 480px) and (orientation: landscape) {
+                           nav { float: left; }
+                        }
+                    </pre>
+                </div>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-3310" data-y="17500" data-z="6405" data-rotate-y="400">
+            <div class="header">
+                <h1 class="animatedslider"> Animações com CSS3 </h1>
+            </div>
+            <div> 
+                <ul>
+                    <li>Animações permitem que você dê vida a elementos na sua página.</li>
+                    <li>Performance de execução e facilidade de implementação.</li>
+                    <li>Navegadores sabem controlar com excelência a exibição e atualização de animações.</li></br></br>
+                </ul>
+            </div>
+            <div class="code" style="position:absolute; top:310px; left:260px;">
+                <pre class="brush: css;">
+                    @keyframes slidein {
+                      from {
+                        margin-left: 50%;
+                      }
+                      to {
+                        margin-left: 0%;
+                      }
+                    }
+                    .animatedslider {
+                      animation: slidein 3 3s alternate;
+                      font-weight: bold;
+                    }
+                </pre>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-3310" data-y="18250" data-z="6405" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">A Foxy também usa animation!</h1>
+            </div>
+            <div class="code" style="position:absolute; top:100px; left:130px;">
+                <pre class="brush: css;">
+                    @keyframes animate-tail {
+                        0% {background-position: -6864px 0; }
+                        100% {background-position: 0 0;}
+                    }
+
+                    .foxtail{
+                        animation: animate-tail 3.75s steps(44) infinite;
+                        background: url('../images/foxtail.png') 0 0 no-repeat;
+                        width: 156px;
+                        height: 156px;
+                    }
+                </pre>
+                <pre class="brush: html;">
+                    <div class="foxtail"></div>
+                </pre>
+            </div>
+            <div class="foxtail" style="margin-top:170px;"></div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-3310" data-y="19000" data-z="6405" data-rotate-y="400">
+            <div class="header">
+                <h1 style="font-size:50px;"> Transições e Transformações </h1>
+            </div>
+            <div> 
+                <ul></br></br></br>
+                    <li>Essa apresentação foi feita com Impress.js</li>
+                    <li>Confira mais sobre o poder das Transições e Transformações</li>
+                    <li>http://bartaz.github.io/impress.js/</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-2570" data-y="17500" data-z="5780" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">CSS ganha inteligência</h1>
+            </div>
+            <div> 
+                <ul>
+                    <li>Novos seletores fornecem um alívio ao JavaScript</li>
+                    <div id="pseudoelements">
+                        <ul>
+                            <li>:first-child e :last-child</li>
+                            <li>:hover, :active, :focus</li> 
+                            <li>:nth-child</li>
+                            <li>:target </li>
+                            <li>:before e :after</li>
+                        </ul>
+                    </div>
+                </ul>
+            </div>
+            <div class="code" style="position:absolute; top:300px; left:500px;">
+                <pre class="brush: css;">
+                        #pseudoelements li:nth-child(even) {
+                            color:orange;
+                        }
+
+                        #pseudoelements li:nth-child(odd) {
+                            color:pink;
+
+                        }
+
+                        #pseudoelements li:hover {
+                            font-size: 50px;
+                        }
+                </pre>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-1830" data-y="17500" data-z="5160" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Gradientes</h1>
+            </div>
+            <div style="margin-left: 180px;"> 
+                </br></br>
+                <li>Media Query</li>
+                <li>Animações, Transições e Transformações</li>
+                <li>Pseudo elementos & Contadores</li>
+                <li>Gradiente</li>
+                <li>Webfonts</li>
+                <li>Bordas</li>         
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-1090" data-y="17500" data-z="4520" data-rotate-y="400">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Webfonts</h1>
+            </div>
+            <div style="margin-left: 180px;"> 
+                </br></br>
+                <li>Media Query</li>
+                <li>Animações, Transições e Transformações</li>
+                <li>Pseudo elementos & Contadores</li>
+                <li>Gradiente</li>
+                <li>Webfonts</li>
+                <li>Bordas</li>         
+            </div>
+        </div>
+
 
 
         <!--

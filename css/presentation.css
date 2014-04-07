@@ -71,3 +71,34 @@ src: url(fonts/OpenSans-Regular.ttf);
 	float: right;
 	margin-top:1px;
 }
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+  }
+
+  to {
+    margin-left: 0%;
+  }
+}
+
+.animatedslider {
+  animation: slidein 3 3s alternate;
+  font-weight: bold;
+}
+
+
+
+#pseudoelements li:nth-child(even) {
+	color:orange;
+}
+
+#pseudoelements li:nth-child(odd) {
+	color:pink;
+
+}
+
+#pseudoelements li:hover {
+	font-size: 50px;
+}
+
