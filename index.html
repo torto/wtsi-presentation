@@ -68,8 +68,8 @@
                 <li>Firefox OS</li>
                 <li>HTML5 & CSS3 </li>
                 <li>WebAPI's</li>
-                <li>Debug & Documentação</li>
-                <li>Distribuindo seu app</li>
+                <li>Ferramentas & Documentação</li>
+                <li>Firefox Marketplace</li>
             </div>
         </div>
         <!-- Slide -->
@@ -91,9 +91,9 @@
             <div style="margin-top:25px; margin-left:0px;">
                 </br></br>
                 <span class="text"> Nós somos uma comunidade mundial de pensadores e apaixonados por tecnologia, que trabalham
-                juntos para manter a Internet livre e aberta.</br></br>  
-                Nós somos programadores, advogados, cientistas, designers, estudantes, etc. Nós somos pessoas comuns que lutam para garantir
-                a sua liberdade na Internet. </span>
+                juntos para manter a sua liberdade na Internet.</br></br>  
+                Somos programadores, advogados, cientistas, designers, estudantes, etc. Nós somos pessoas comuns que lutam para garantir
+                a sua liberdade e direito de expressão. </span>
             </div>
         </div>
 
@@ -115,6 +115,7 @@
                 <p class="text quemsoueu"><span style="color:Fuchsia;">SUMO</span>: support.mozilla.org/pt-BR/home</p>
                 <p class="text quemsoueu"><span style="color:pink;">Facebook</span>: facebook.com/mozillabrasil</p>
                 <p class="text quemsoueu"><span style="color:GreenYellow;">Twitter</span>: twitter.com/mozillabrasil</p>
+                <p class="text quemsoueu"><span style="color:PeachPuff;">Lista de Discussão</span>: community-brasil@lists.mozilla.org</p>
             </div>
         </div>
 
@@ -248,10 +249,9 @@
             </div>
             <div style="margin-top:20px;">
                 </br>
-                <p class="text quemsoueu">Novidades anunciandas na MWC Barcelona:</p>
+                <p class="text quemsoueu">Novidades anunciadas na MWC Barcelona:</p>
                 <p class="text quemsoueu" style="margin-left:50px;">- 4.5" Dual-Core Dev Phone (Firefox OS Flame)</p>
-                <p class="text quemsoueu" style="margin-left:50px;">- Suporte ao Firefox OS no PhoneGap</p>
-                <p class="text quemsoueu" style="margin-left:50px;">- Suporte ao Firefox OS no Cordova</p>
+                <p class="text quemsoueu" style="margin-left:50px;">- Suporte ao Firefox OS no PhoneGap / Cordova</p>
                 <p class="text quemsoueu" style="margin-left:50px;">- 8 Novas APIs</p>
                 <p class="text quemsoueu" style="margin-left:50px;">- Programa de contribuição de Tablets</p>
                 <p class="text quemsoueu" style="margin-left:50px;">- Lançamento do App Manager</p>
@@ -389,7 +389,7 @@
             <div style="margin-left: 20px;"> 
                 </br>
                 <li>O HTML pode ser tratado como um documento estruturado. Isso é, possui seções e subseções. A relação entre esses
-                    elementos definem a estrutura do elemento.</li>
+                    elementos define a estrutura do elemento.</li>
                 <div class="code">
                     <pre class="brush: html;">
                         <div classe="secao" id="html5">
@@ -402,7 +402,7 @@
                         </div>
                     </pre>
                 </div>
-                <li> Que nos leva a seguinte estrutura </li>
+                <li> Que nos leva à seguinte estrutura </li>
                 <div class="code">
                     <pre class="brush: html;">
                         1. HTML5
@@ -431,7 +431,7 @@
                         </section>
                     </pre>
                 </div>
-                <li> Que também nos leva a seguinte estrutura </li>
+                <li> Que também nos leva à seguinte estrutura </li>
                 <div class="code">
                     <pre class="brush: html;">
                         1. HTML5
@@ -459,7 +459,7 @@
             <div style=""> 
                 </br>
                 <ul>
-                    <li>Inserção direta de vídeo e aúdio em páginas</li>
+                    <li>Inserção direta de vídeo e áudio em páginas</li>
                     <div class="code">
                         <pre class="brush: html;">
                             &lt;video src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
@@ -601,7 +601,7 @@
             </div>
             <div> 
                 <ul>
-                    <li>O DOM Storage é um mecanismo de armazenamento de strings chave/valor que podem ser armazenados e recuperados posteriormente</li></br>
+                    <li>O DOM Storage é um mecanismo de armazenamento de strings chave/valor que podem ser armazenadas e recuperados posteriormente</li></br>
                     <li>Existem três opções:</li>
                         <ul>
                             <li><i>sessionStorage</i></li>
@@ -619,14 +619,25 @@
             </div>
             <div> 
                 <ul>
-                    <li>O DOM Storage é um mecanismo de armazenamento de strings chave/valor que podem ser armazenados e recuperados posteriormente</li></br>
-                    <li>Existem três opções:</li>
+                    <li>A IndexedDB é uma API para armazenamento client-side de quantidades significativas de informações e busca de alta performance.</li></br>
+                    <li>Vantagens</li>
                         <ul>
-                            <li><i>sessionStorage</i></li>
-                            <li><i>localStorage</i></li>
-                            <li><i>globalStorage {OBSOLETO}</i></li>
+                            <li>É assíncrono</li>
+                            <li>Não há limite de tamanho do BD.</li>
+                            <li>Trabalha com Objetos</li>
+                            <li>Transacional</li>
+                            <li>Adeus SQL</li>
                         </ul>
                 </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-6520" data-y="13750" data-z="6590" data-rotate-y="300">
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Armazenamento - IndexedDB</h1>
+            </div>
+            <div> 
+                <img class="logo" src="images/indexeddb.png" style="width:100%;"/>
             </div>
         </div>
 
@@ -869,33 +880,306 @@
 
         <div class="step slide generalrules" data-x="-1830" data-y="17500" data-z="5160" data-rotate-y="400">
             <div class="header">
-                <h1 class="text" style="font-size:50px;">Gradientes</h1>
+                <h1 class="text" style="font-size:50px;">Webfonts</h1>
             </div>
-            <div style="margin-left: 180px;"> 
-                </br></br>
-                <li>Media Query</li>
-                <li>Animações, Transições e Transformações</li>
-                <li>Pseudo elementos & Contadores</li>
-                <li>Gradiente</li>
-                <li>Webfonts</li>
-                <li>Bordas</li>         
+            <div> 
+                <img src="images/font-type.png"/>
+                <div class="code">
+                    <pre class="brush: css;">
+                            @font-face {
+                              font-family: MinhaFonte;
+                              src: url('myfont.woff') format('woff'),
+                                   url('myfont.ttf') format('truetype'); 
+                            }
+
+                            body {
+                              font-family: MinhaFonte, Fallback, sans-serif;
+                            }
+                    </pre>
+                </div>
             </div>
         </div>
 
         <div class="step slide generalrules" data-x="-1090" data-y="17500" data-z="4520" data-rotate-y="400">
             <div class="header">
-                <h1 class="text" style="font-size:50px;">Webfonts</h1>
+                <h1 class="text" style="font-size:50px;">Bordas</h1>
             </div>
-            <div style="margin-left: 180px;"> 
-                </br></br>
-                <li>Media Query</li>
-                <li>Animações, Transições e Transformações</li>
-                <li>Pseudo elementos & Contadores</li>
-                <li>Gradiente</li>
-                <li>Webfonts</li>
-                <li>Bordas</li>         
+            <div id="example-one"></div>  
+            <div id="example-two"></div>
+            <div id="example-three"></div> 
+            <div id="example-four"></div>
+            <div id="example-five" class="shadow"></div>
+            <div class="code"></br></br></br>
+                <pre class="brush: css;">
+                        #example-one {
+                          border-radius: 10px;
+                          background: #BADA55;
+                        }
+                        #example-five {
+                          border-radius: 30px/10px; /* radius horizontal  / radius vertical  */
+                          background: #BADA55;
+                        }
+                        div[id^='example-'] {
+                            margin-right: 30px;
+                            width: 100px;
+                            height: 100px;
+                            float: left;
+                        }
+                        .shadow {
+                          box-shadow: 1px 2px 1px 10px black;
+                        }
+                </pre>
             </div>
         </div>
+
+        <!-- WEB APIs -->
+        <div class="step slide generalrules" data-x="-1090" data-y="23500" data-z="4520" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:120px; margin-left:100px; margin-top: 250px;">Web APIs</h1>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-1820" data-y="23500" data-z="3890" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">O que são?</h1>
+            </div>
+            <div> 
+                <ul></br>
+                    <li>As WebAPIs oferecem acesso direto ao hardware através de JavaScript (sim, isso é magico!)</li>
+                    <li>As WebAPIs são padronizadas e desenvolvidas em conjunto com a W3C. Com isso, seu app precisará cada vez menos de alterações para plataformas diferentes.</li>
+                    <li>Estão sendo implementadas no Firefox desktop e mobile. Desta forma, seu app é independente da plataforma.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-2550" data-y="23500" data-z="3272" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Quais são as funcionalidades?</h1>
+            </div>
+            <div> 
+                <ul>
+                    <li>Informação de Rede, Bluetooth, Conexão Móvel(3G), Estatísticas de Rede, TCP Socket, Telefonia.</li>
+                    <li>WebSMS, Informações do WiFi, Sensor de Luz Ambiente, Estado da Bateria, Geolocalização, Bloqueio de Mouse (Pointer Lock) </li>
+                    <li>Proximidade, Orientação, Vibração, WebFM, Camera, Gerenciamento de energia</li>
+                    <li>Manipulação de Arquivos, IndexedDB, Contatos, Armazenamento, Configurações</li>
+                    <li>Alarme, Notificações, PUSH, Web Activities (Delegação de tarefas), WebPayment, Browser, Permissões, Tempo/Relógio </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-3300" data-y="23500" data-z="2642" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Tipos de Aplicativo</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <p><b>Hospedado</b></p>
+                    <li style="margin-left:50px;">Ficam armazenados em um servidor externo. É de obrigação do usuário fornecer a hospedagem e manutenção do up-time do app.</li>
+                    <li style="margin-left:50px;">Em caso do app não estar disponível no cache do dispositivo, o servidor remoto será consultado.</li>
+                    <li style="margin-left:50px;"> Vantágens </li>
+                    <ul> 
+                        <li style="margin-left:50px;">Facilidade de Deploy e utilização do Github como servidor</li>
+                    </ul> 
+                    <li style="margin-left:50px;"> Desvantágens </li>
+                    <ul> 
+                        <li style="margin-left:50px;">Utilização do appcache</li>
+                    <ul>     
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-3300" data-y="24250" data-z="2642" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Tipos de Aplicativo</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <p><b>Empacotado</b></p>
+                    <li style="margin-left:50px;">São aplicativos comprimidos no formato zip, onde todos os dados necessários estão inclusos.</li>
+                    <li style="margin-left:50px;">Para atualizar o aplicativo, é necessário seguir o processo definido pelo Firefox Marketplace. </li>
+                    <li style="margin-left:50px;"> Vantagens </li>
+                    <ul> 
+                        <li style="margin-left:50px;">Velocidade de execução, agilidade no desenvolvimento.</li>
+                    </ul> 
+                    <li style="margin-left:50px;"> Desvantagens </li>
+                    <ul> 
+                        <li style="margin-left:50px;">Processo de distribuição do Marketplace</li>
+                    <ul>       
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4050" data-y="23500" data-z="2010" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Níveis de acesso ao hardware</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <p><b>Normal</b></p>
+                    <li style="margin-left:50px;">Aplicativos hospedados e aplicativos empacotados que não declaram um tipo no manifesto são atribuídos a esse grupo.</li></br>
+                    <li style="margin-left:50px;">Acesso a APIs como geolocalização, PUSH, Armazenamento, captura de vídeo, áudio, rádio FM entre outras. </li>       
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4050" data-y="24250" data-z="2010" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Níveis de acesso ao hardware</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <p><b>Privilegiado</b></p></br>
+                    <li style="margin-left:50px;">A diferença principal entre o nível normal e o privilegiado, é que obrigatoriamente o aplicativo tem que ser empacotado, ao contrário da normal onde apps podem tanto ser empacotados ou hospedados.</li></br>
+                    <li style="margin-left:50px;">Acesso a APIs como Socket TCP, Informações sobre a Rede, Armazenamento e Leitura do cartão SD, manipulação de arquivos de vídeo e áudio entre outras. </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4050" data-y="25000" data-z="2010" data-rotate-y="500" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Níveis de acesso ao hardware</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <p><b>Certificado</b></p></br>
+                    <li style="margin-left:50px;">Aplicativos certificados tem acesso total ao hardware do dispositivo. Infelizmente, aplicativos certificados são ou da Mozilla ou OEM (parceiros de hardware).</li></br>
+                    <li style="margin-left:50px;">Acesso as APIs críticas e de controle do aparelho. Todos os aplicativos nativos são do tipo certificado. </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4790" data-y="23500" data-z="1382" data-rotate-y="500" >
+            <div class="header">
+                 <h1 class="text" style="font-size:50px;">Arquivo Manifesto</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <li>O manifesto é um arquivo do tipo JSON que descreve o aplicativo.</li>
+                    <li>Deve ser nomeado manifest.webapp e ficar na raiz do projeto. </li>
+                    <li>Existem campos obrigatórios e campos que variam de acordo com as necessidades do seu aplicativo. </li>
+                    <li>Quando um aplicativo é instalado de forma remota, o arquivo manifest é responsável por fornecer as informações necessárias.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4790" data-y="24250" data-z="1382" data-rotate-y="500" >
+            <div>
+                <img class="logo" src="images/manifest.png" style="margin-top:-20px; margin-left:40px;width: 90%; height:100%;"/>
+            </div>
+        </div>
+
+
+        <!-- Ferramentas -->
+        <div class="step slide generalrules" data-x="-4790" data-y="29000" data-z="1382" data-rotate-y="600" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px; margin-left:50px; margin-top: 250px;">Ferramentas & Documentação</h1>
+            </div>
+        </div>
+
+        
+        <div class="step slide generalrules" data-x="-5270" data-y="29000" data-z="2200" data-rotate-y="600" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">App Manager</h1>
+            </div>
+            <div>
+                <ul></br></br>
+                    <li>Já está na hora de conhecer a MDN (Mozilla Developer Network).</li></br>
+                    <li>Vamos a uma pequena demonstração do app manager. </li></br>
+                    <li><a href="https://developer.mozilla.org/pt-BR/docs/Mozilla/Firefox_OS/Usando_o_App_Manager" target="_blank"> Artigo Usando o App Manager - MDN </a></br>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-5751" data-y="29000" data-z="3018" data-rotate-y="600" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Documentação e Tutoriais</h1>
+            </div>
+            <div>
+                <ul>
+                    <li>Ferramentas como a MDN, Stackoverflow, IRC e listas de discussão são seus melhores aliados.</li>
+                    <li>Não tenha medo de incomodar as pessoas e perguntar, o Firefox OS é uma plataforma nova, nem tudo está documentado. </li>
+                    <li>Nós precisamos da sua ajuda, traduza artigos ou crie tutoriais que ajudaram outros desenvolvedores.</li>
+                    <li>Publique sobre o processo de criação do seu app em um blog, outras pessoas podem (e com certeza) vão passar pelo mesmo problema que você!</li></br>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-6232" data-y="29000" data-z="3836" data-rotate-y="600" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Links Úteis</h1>
+            </div>
+            <div>
+                <ul></br></br>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Tools" target="_blank"> Ferramentas de Desenvolvimento - MDN </a></li>
+                    <li><a href="https://wiki.mozilla.org/WebAPI" target="_blank"> Roadmap das API's - Wiki</a></li>
+                    <li><a href="https://developer.mozilla.org/pt-BR/docs/WebAPI" target="_blank"> Documentação das APIs - MDN</a></li>
+                    <li><a href="https://leanpub.com/guiarapidofirefoxos/read" target="_blank"> Livro - Guia Rápido de Desenv. para Firefox OS, por Andre Garzia</a></li>
+                    <li><a href="https://support.mozilla.org/pt-BR/products/firefox-os" target="_blank"> Artigos de Suporte Firefox OS - SUMO</a></li>
+                    <li><a href="https://developer.mozilla.org/pt-BR/docs/Mozilla/Firefox_OS" target="_blank"> Tudo sobre o Firefox OS - MDN</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Firefox Marketplace -->
+
+        <div class="step slide generalrules" data-x="-6232" data-y="33000" data-z="3836" data-rotate-y="700" >
+            <div>
+            </br>
+                <h1 class="text" style="font-size:78px;">Firefox Marketplace</h1>
+                <img src="images/marketplace.png" style="position:absolute; left:250px; top:200px; width:40%;"/>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-5313" data-y="33000" data-z="4170" data-rotate-y="700" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">O que é?</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <li>O Marketplace é uma loja de aplicativos projetados para os aparelhos Firefox OS.</li>
+                    <li>Aplicativos para o Firefox Desktop e Firefox para Android também estão disponíveis.</li>
+                    <li>O Marketplace disponibiliza aplicativos gratuitos e pagos. Você pode utilizar o Persona para compartilhar aplicativos entre aparelhos.</li>
+                    <li>Muitos aplicativos já foram portados para o Firefox OS, e o número só cresce.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-4394" data-y="33000" data-z="4504" data-rotate-y="700" >
+            <div class="header">
+                <h1 class="text" style="font-size:50px;">Vantagens</h1>
+            </div>
+            <div>
+                <ul></br>
+                    <li>API aberta para executar pagamentos in-app </li>
+                    <li>Monetarização através de anúncios em aplicativos</li>
+                    <li>Oportunidade de criar apps de qualidade</li>
+                    <li>Baixa curva de aprendizado e processo de disponibilização facilitado.</li>
+                    <img src="images/firefox-mktplace.png" style="position:absolute; left:250px; top:330px; width:40%;"/>
+                </ul>
+            </div>
+        </div>
+
+<!--         <div class="step slide generalrules" data-x="-7194" data-y="33000" data-z="5472" data-rotate-y="700" >
+            <div>
+            </br>
+                <h1 class="text" style="font-size:78px;">Firefox Marketplace</h1>
+                <img src="images/marketplace.png" style="position:absolute; left:250px; top:200px; width:40%;"/>
+            </div>
+        </div>
+
+        <div class="step slide generalrules" data-x="-7675" data-y="33000" data-z="6290" data-rotate-y="700" >
+            <div>
+            </br>
+                <h1 class="text" style="font-size:78px;">Firefox Marketplace</h1>
+                <img src="images/marketplace.png" style="position:absolute; left:250px; top:200px; width:40%;"/>
+            </div>
+        </div> -->
+
+
+
+        
+
 
 
 
